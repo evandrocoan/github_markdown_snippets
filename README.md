@@ -1,27 +1,35 @@
 # GitHub Markdown Snippets
 Helpful Sublime Text snippets to get you started with GitHub flavored Markdown by letting you type the plain old HTML tags.
 
+
 ## Installation
 
-### Via Package Control
-The easiest way is to install it via [Package Control](https://packagecontrol.io/).
+### By Package Control
 
-- Go to **Command Palette** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> or <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
-- Select **Package Control : Install Package**
-- Search for **Github Markdown Snippets**
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `GitHubMarkdownSnippets` and press <kbd>Enter</kbd>
 
-### Manual
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
-- Clone the repository or download the [ZIP](https://github.com/praveenpuglia/github-markdown-snippets/archive/master.zip)
-- Extract the archive
-- Put it in your **Packages**( `Preferences > Browse Packages...` ) directory.  
 
 ### Using with Emmet
 If you have Emmet installed, tab triggers may not function as expected due to [this](https://github.com/sergeche/emmet-sublime#tab-key-handler).
 
-To get around the problem, go to 
+To get around the problem, go to
 ```
-Preferences > Package Settings > Emmet > User Settings 
+Preferences > Package Settings > Emmet > User Settings
 ```
 and add the following in your settings file.
 
@@ -37,7 +45,7 @@ Note that any tab trigger not set by this plugin will be converted to HTML tags 
 who want to use HTML tags inside Markdown files.
 
 ## Usage
-A consolidated guide is available [here](http://praveenpuglia.github.io/github_markdown_snippets). 
+A consolidated guide is available [here](http://praveenpuglia.github.io/github_markdown_snippets).
 
 Type a tag name and hit tab. That's it! :relaxed:
 
@@ -53,10 +61,10 @@ h4     // Heading 4
 h5     // Heading 5
 h6     // Heading 6
 ```
-# Heading 1  
-## Heading 2  
-### Heading 3  
-#### Heading 4  
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
 ##### Heading 5
 ###### Heading 6
 ```
@@ -66,14 +74,14 @@ bq        // Blockquote
 strike    // Strikeout
 hr        // Horizontal Rule, Divider
 ```
-**Bold Text** 
+**Bold Text**
 
-*Italic Text* 
+*Italic Text*
 
 > Put a nice, beautiful
 > quote here...
 
-~~Strike Through~~ 
+~~Strike Through~~
 
 ---
 
@@ -92,9 +100,9 @@ alert( message );
 a      // Anchor
 img    // Image
 ```
-[Link Title](Link) 
+[Link Title](Link)
 
-![Puppies are cute](https://c1.staticflickr.com/5/4112/5170590074_714d36db83_b.jpg) 
+![Puppies are cute](https://c1.staticflickr.com/5/4112/5170590074_714d36db83_b.jpg)
 
 ```
 ol       // Ordered List
@@ -122,5 +130,5 @@ table    // Table
 
 
 
-  
+
 
